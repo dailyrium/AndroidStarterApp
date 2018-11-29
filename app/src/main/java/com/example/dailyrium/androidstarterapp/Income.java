@@ -1,5 +1,6 @@
 package com.example.dailyrium.androidstarterapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -24,7 +25,7 @@ public class Income extends AppCompatActivity {
                     mTextMessage.setText(item.getTitle());
                     return true;
                 case R.id.add_income:
-                    setContentView(R.layout.add_income);
+                    startActivity(new Intent(Income.this, AddIncome.class));
                     Log.d("Main","Entering add_income");
                     return true;
                 case R.id.add_expense:
