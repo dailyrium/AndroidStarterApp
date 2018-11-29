@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidStarterApp</string>
+    <string name="title_home">Transactions</string>
+    <string name="title_dashboard">Add Income</string>
+    <string name="title_notifications">Add Expense</string>
+    <string-array name="income_category_array">
+        <item>Pocket money</item>
+        <item>Salary</item>
+        <item>Gift</item>
+        <item>Interest rate</item>
+        <item>Other</item>
+    </string-array>
+</resources>
